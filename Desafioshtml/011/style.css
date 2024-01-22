@@ -1,0 +1,11 @@
+@charset "UFT-8";
+
+body {
+    background-color: rgba(0, 255, 255, 0.377);
+}
+
+#img01 {
+    min-width: 500px;
+    max-width: 100%;
+    height: 70vh;
+}

@@ -5,23 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astronauta</title>
     <style>
-         div {
-        
-            padding-left: 1000px;
+        body {
+            background-color: azure;
             
-         }
+        }
+
+        div {
+            background-position: center;
+        }
+
+        * {
+            min-width: 500px;
+            max-width: 100%;
+        
+        }
+
+        * {
+            margin: 3px;
+        
+        }
     </style>
+
 </head>
 <body>
     <h1>Astronauta</h1>
     
-    <div style="position: relative;">
-        <img src="imagens/espaco.jpg" style="position: absolute; left: 0; top: 0; z-index: 1;">
-        <img src="imagens/astronauta.png" style="position: sticky; top: 0; top: 0; z-index: 2;">
-      </div>
-      
-      
+        <div style= "position: relative;" id="imagem01">
+        <img src="imagens/espaco.jpg" alt="espaco.jpg"
+        style="position: fixed; left: 0%; z-index: 1%; ">
     
-      
+
+        <img src="imagens/astronauta.png" alt="astronauta.png" 
+        style= "position: relative ; padding-left: 25%;">
+
+    </div>
+
 </body>
 </html>
